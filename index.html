@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
-<head >
-	<title></title>
+<head>
+	<title>Home Page</title>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet">
 <script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular.js"></script>
-<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
 </head>
-<body ng-controller="myController">
 
-<div class="form-group">
-<label for="exampleInputEmail1" class="col-sm-2 control-label">UserName</label>
-<div class="col-sm-10">
-<input type="text" class="form-control" ng-model="username" placeholder="Username"/>
-</div>
+<body>	
 <div>
-<div class="form-group">
-<label for="exampleInputEmail1" class="col-sm-2 control-label">Password</label>
-<div class="col-sm-10">
-<input type="password" class="form-control" ng-model="password" placeholder="password"/>
-</div>
-<div class="form-group">
-<label for="exampleInputEmail1" class="col-sm-2 control-label">Confirm Password</label>
-<div class="col-sm-10">
-<input type="password" class="form-control" ng-model="confirmpassword" placeholder="Confirm Password"/>
-</div>
-</div>
-<div>
-<div class="form-group">
-<label for="exampleInputEmail1" class="col-sm-2 control-label">Address</label>
-<div class="col-sm-10">
-<textarea class="form-control" rows="3"></textarea>
-</div>
-</div>
+	<section>
+		
+		<img src="images/image1.jpg" width="100%" height="250px" />
+		<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/imagetext4.jpg" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
 
-<button type="button" class="btn btn-success" >Success</button>
-<p ng-bind="username"></p>
+	
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/imagetext2.jpg" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+	<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/imagetext3.jpg" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+		
+	</section>
 </body>
 </html>
